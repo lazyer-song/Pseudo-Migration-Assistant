@@ -1,0 +1,21 @@
+# 构建产物
+src/c2d/bin/
+src/c2d/obj/
+src/c2d/out/
+
+# 本地构建缓存与测试数据（体积很大，不入库）
+build/
+
+# 日志
+*.log
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store

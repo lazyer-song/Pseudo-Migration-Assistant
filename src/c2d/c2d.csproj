@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishAot>true</PublishAot>
+    <SelfContained>true</SelfContained>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <DebugType>none</DebugType>
+    <AssemblyName>伪迁移助手</AssemblyName>
+    <RootNamespace>C2D</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Version>0.1.0</Version>
+    <Product>伪迁移助手</Product>
+    <AssemblyTitle>伪迁移助手</AssemblyTitle>
+    <Description>C 盘目录软链接迁移工具</Description>
+    <Company>个人项目</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="bg.bin" LogicalName="C2D.bg.bin" />
+  </ItemGroup>
+</Project>
